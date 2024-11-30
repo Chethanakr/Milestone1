@@ -1,0 +1,49 @@
+.order-customization {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .order-customization h2 {
+    text-align: center;
+  }
+  
+  .order-customization label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .order-customization input {
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .order-customization button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .order-customization button:hover {
+    background-color: #218838;
+  }
+  
+  .order-customization ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .order-customization ul li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-customization h3 {
+    margin-top: 20px;
+  }
+  

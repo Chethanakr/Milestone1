@@ -1,0 +1,11 @@
+.cake-details {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .cake-details img {
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  

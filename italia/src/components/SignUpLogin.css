@@ -1,0 +1,108 @@
+/* SignUpLogin Section Styling */
+.signup-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Header */
+  .signup-login h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  .signup-login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Add some spacing between the inputs */
+    width: 100%;
+    max-width: 400px; /* Limit the form width */
+    margin-bottom: 20px;
+  }
+  
+  /* Input Fields Styling */
+  .signup-login label {
+    font-size: 1.1rem;
+    color: #555;
+    width: 100%;
+  }
+  
+  .signup-login input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .signup-login input:focus {
+    outline: none;
+    border-color: #f39c12;
+    box-shadow: 0 0 5px rgba(243, 156, 18, 0.5);
+  }
+  
+  /* Submit Button */
+  .signup-login button[type="submit"] {
+    background-color: #f39c12;
+    color: white;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-login button[type="submit"]:hover {
+    background-color: #e67e22;
+  }
+  
+  /* Toggle Form Button */
+  .signup-login button {
+    background-color: transparent;
+    border: none;
+    color: #3498db;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: 20px;
+  }
+  
+  .signup-login button:hover {
+    color: #2980b9;
+  }
+  
+  /* Optional: For responsiveness on mobile devices */
+  @media (max-width: 600px) {
+    .signup-login {
+      padding: 10px;
+    }
+  
+    .signup-login h2 {
+      font-size: 1.8rem;
+    }
+  
+    .signup-login input {
+      font-size: 0.9rem;
+    }
+  
+    .signup-login button[type="submit"] {
+      font-size: 1rem;
+      padding: 10px 20px;
+    }
+  
+    .signup-login button {
+      font-size: 1rem;
+    }
+  }
+  

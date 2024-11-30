@@ -1,0 +1,58 @@
+/* Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  padding: 10px 20px;
+}
+
+.logo {
+  color: white;
+  background-color: rgb(210, 84, 30);
+  padding-left: 4px;
+  align-items: center;
+  font-size: 3rem;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+
+.cart-with-items a {
+  position: relative;
+}
+
+.cart-with-items a::after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  font-size: 0.8rem;
+  border-radius: 50%;
+  padding: 2px 6px;
+  display: block; /* Make sure the badge is visible when there are items */
+}
+
+/* Hide the badge when cart is empty */
+.cart-empty a::after {
+  display: none;
+}

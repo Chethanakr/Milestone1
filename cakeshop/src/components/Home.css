@@ -1,0 +1,37 @@
+.home-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.featured-cakes {
+  margin-top: 30px;
+}
+
+.cakes-list {
+  display: flex;
+  justify-content: space-around; 
+  gap: 20px; 
+  flex-wrap: wrap; 
+  padding: 0;
+}
+
+.cake-item {
+  text-align: center;
+  width: 250px; 
+  box-sizing: border-box;
+}
+
+.cake-item img {
+  width: 100%; 
+  height: auto;
+}
+
+.cake-item h3 {
+  margin-top: 10px;
+}
+
+.cake-item a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}

@@ -1,0 +1,47 @@
+.header {
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header .logo h1 {
+    font-family: 'Arial', sans-serif;
+    color: #f39c12;
+    font-size: 2rem;
+    margin: 0;
+    padding-left: 20px;
+    align-content: center;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .header nav ul li {
+    margin: 0 15px;
+  }
+  
+  .header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .header nav ul li a:hover {
+    color: #f39c12;
+    transform: scale(1.05);
+  }
+  
+  .header nav ul li a:active {
+    color: #d35400;
+  }
+  
